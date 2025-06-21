@@ -9,7 +9,7 @@ test('Chatbot multi-turn interaction with dynamic replies', async ({ page }) => 
   const filePath = 'C:/Users/Saarc_Netcampus/OneDrive/Desktop/chatbot.txt';
 
   // Log when page closes unexpectedly
-  page.on('close', () => {
+  page.on('close', () => { 
     console.warn('⚠️ The page was closed unexpectedly!');
   });
 
