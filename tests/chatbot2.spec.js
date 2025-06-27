@@ -36,7 +36,7 @@ test('Chatbot multi-turn interaction with dynamic replies', async ({ page }) => 
   const messagesLocator = page.locator("div.smtbot-message-content");
   await expect(messagesLocator.first()).toBeVisible();
 
-  const messagesToSend = [ "When is the admission deadline?",
+  const messagesToSend = ["When is the admission deadline?",
             "What is the last date to apply for admission?",
             "Till when can I submit my admission application?",
             "Is there an extension for the admission deadline?",
